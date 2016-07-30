@@ -15,7 +15,7 @@ S35<-Rep1_edge[, c(3)]
 S325<-Rep1_edge[, c(4)]
 S3<-Rep1_edge[, c(5)]
 
-venn.diagram(x = list(S1 = S1, S2 = S2, S35 = S35, S325= S325,  S3= S3), filename = "Venn.tiff"
+venn.diagram(x = list(S1 = S1, S2 = S2, S3 = S3, S4= S4,  S5= S5), filename = "Venn.tiff"
 col = "transparent", fill = c("cornflowerblue","green","yellow","darkorchid1","purple"),
 alpha = 0.50,  cex = 1.5, fontfamily = "serif", fontface = "bold",
 cat.col = c("darkblue", "darkgreen", "orange", "darkorchid4", "green"), cat.cex = 1.5,
